@@ -31,9 +31,10 @@ void  HashTable::insertItem(int key, string value)
 		if (bItr->first == key)
 		{
 			keyExists = true;
-			bItr->second = value;
+			
+			cout << "\n\t< Key: " << bItr->first << " Exists. Value: " << bItr->second << " Replaced with " << value << ".> \n\n";
 
-			cout << "\n\t< Key: " << bItr->first << " Exists. Value Replaced.> \n\n";
+			bItr->second = value;
 			break;
 		}
 	}

@@ -13,6 +13,7 @@ int main()
 		cout << "Issue with is empty() \n";
 	}
 
+	cout << "\nInserting values in the hash table...\n";
 	HT.insertItem(905, "Jim");
 	HT.insertItem(10258, "Gary");
 	HT.insertItem(1654, "Mary");
@@ -22,7 +23,7 @@ int main()
 	HT.insertItem(5621, "Betty");
 	HT.insertItem(6584, "Jeff");
 
-	cout << "HashTable:\n";
+	cout << "Printing HashTable...\n";
 	HT.printTable();
 
 	HT.removeItem(905);
