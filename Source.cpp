@@ -2,7 +2,7 @@
 
 int main()
 {
-	HashTable HT;
+	HashTable<string> HT;
 
 	if (HT.isEmpty())
 	{
